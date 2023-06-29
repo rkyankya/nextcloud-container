@@ -1,4 +1,4 @@
-FROM nextcloud:23.0.0-apache
+FROM nextcloud:latest
 ENV NEXTCLOUD_UPDATE=0
 
 COPY --chown=root:root entrypoint.sh /entrypoint.sh
